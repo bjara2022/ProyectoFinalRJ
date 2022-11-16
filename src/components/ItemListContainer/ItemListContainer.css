@@ -1,0 +1,25 @@
+.containerMsgAndCards {
+	display: flex;
+	flex-direction: column;
+}
+
+.greeting-container {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 3rem;
+	width: 40%;
+	background-color: #eaf1f1;
+	border-radius: 1rem;
+	border-bottom: 2px solid whitesmoke;
+	border-right: 2px solid whitesmoke;
+	
+}
+
+.greeting-message {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}

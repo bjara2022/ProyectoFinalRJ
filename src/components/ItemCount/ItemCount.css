@@ -1,0 +1,38 @@
+/* Contenedores de los botones */
+.buttonsContainerItemCount {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+.controlsContainerItemCount {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+	border-radius: 8px;
+	border: 1px solid rgb(115, 194, 221);
+}
+.buttonCartContainerItemCount {
+	margin-left: 1rem;
+	border-radius: 8px;
+	border: 1px solid rgb(115, 194, 221);
+	padding: 0.8rem;
+	background-color: rgb(115, 194, 221);
+}
+
+/* Botones */
+.buttonControlItemCount,
+.buttonAddCartItemCount {
+	font-size: 18px;
+	border: 0px;
+	background-color: rgb(115, 194, 221);
+	border-radius: 8px;
+	padding: 0 1rem;
+}
+.buttonLessItemCount {
+	padding: 0 1.2rem;
+}
+
+/* Contador */
+.messageItemCount {
+	margin: 0 1rem;
+}
