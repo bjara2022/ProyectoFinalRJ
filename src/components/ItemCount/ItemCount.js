@@ -33,7 +33,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 				<button
 					onClick={less}
 					className="buttonControlItemCount buttonLessItemCount"
-					disabled={count <= 0}
+					disabled={count <= 1}
 				>
 					-
 				</button>
@@ -42,7 +42,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 				<button
 					onClick={() => onAdd(count)}
 					className="buttonAddCartItemCount"
-					disabled={count > stock || count <= 0}
+					disabled={count >= stock || count <= 0}
 				>
 					Agregar al carrito
 				</button>

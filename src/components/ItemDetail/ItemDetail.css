@@ -2,27 +2,32 @@
 	display: flex;
 	justify-content: space-evenly;
 }
+
 .productDetail {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	font-size: large;
-	margin-top: 2rem;
+	margin-top: 8rem;
 }
-.cardBottom {
+
+.disponible {
 	margin-top: 1rem;
+	margin-left: 12.5rem;
 	font-size: small;
 	padding: 0.5rem;
-	background-color: rgb(194, 222, 255);
+	background-color: rgb(184, 187, 190);
 	border-radius: 0;
 }
+
 .textCard {
 	display: inline;
 }
+
 .priceCard {
-	color: green;
-	text-align: center;
+	color: rgb(7, 71, 155);
 }
+
 .countProductCenter {
 	margin: 12rem;
 	display: flex;
@@ -30,14 +35,52 @@
 	align-items: flex-start;
 }
 
-.buttonBack {
-	
-	display: block;
-	text-decoration: none;
-	color: black;
-	margin-top: 1rem;
-	padding: 0.5rem 1rem;
-	border: 1px solid rgb(190, 190, 190);
+.seguir {
+	margin-top: 10rem;
+	margin-right: 2rem;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0.5rem;
+	color:whitesmoke;
+	background-color: black;
 	border-radius: 8px;
-	background-color: rgb(190, 190, 190);
+}
+
+.seguir:hover {
+	border: 2px solid gray;
+}
+
+.seguir:active {
+	border: 2px solid rgb(4, 27, 23);
+	font-weight: 700;
+}
+.seguirinicio {
+	margin-top: 1rem;
+	margin-right: 2rem;
+	font-size: 18px;
+	padding: 0.5rem;
+	color:whitesmoke;
+	background-color: black;
+	border-radius: 8px;
+
+}
+.finalizar {
+	margin-top: 15rem;
+	margin-right: 1rem;
+	padding: 0.5rem 1rem;
+	font-size: 18px;
+	color: whitesmoke;
+	font-weight: 500;
+	border-radius: 8px;
+	background-color: black
+	
+}
+
+.finalizar:hover {
+	border: 2px solid gray;
+}
+
+.finalizar:active {
+	border: 2px solid rgb(18, 37, 71);
+	font-weight: 700;
 }

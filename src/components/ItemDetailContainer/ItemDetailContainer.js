@@ -20,7 +20,7 @@ const ItemDetailContainer = () => {
 		getProduct.then((response) => {
 			setProductSelec(response);
 		});
-		// eslint-disable-next-line react-hooks/exhaustive-deps
+		
 	}, [id]);
 
 	return <div>{productSelec && <ItemDetail product={productSelec} />}</div>;

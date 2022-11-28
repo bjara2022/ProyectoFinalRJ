@@ -1,12 +1,19 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useCartContext } from '../../context/CartContex';
 import ItemCount from '../ItemCount/ItemCount';
 import './ItemDetail.css';
 
 const ItemDetail = ({ product }) => {
-	//Función Add Cart
-	const onAdd = (cantidad) => {
-		console.log(cantidad);
+		
+	const [cantidad, setCantidad] = useState(0);
+	const { addToCart } = useCartContext();
+
+	const onAdd = (count) => {
+		setCantidad(count);
+		addToCart(product, count);
 	};
+
 	return (
 		<div className="productDetailContainer">
 			<div className="productDetail">
@@ -28,19 +35,34 @@ const ItemDetail = ({ product }) => {
 			</div>
 
 			<div className="countProduct">
-				<div className="countProductCenter">
+				{cantidad > 0 ? (
 					<div>
-						<ItemCount stock={product.stock} initial={1} onAdd={onAdd} />
-					</div>
-					<div className="cardBottom">
-						<span>{product.stock} Unidades Disponibles</span>
-					</div>
-					<div>
-						<Link to="/" className="buttonBack">
-							Volver al Inicio
+						<Link to="/">
+							<button className="seguir">Seguir Comprando</button>
+						</Link>
+						<Link to="/cart">
+							<button className="finalizar">Terminar</button>
 						</Link>
 					</div>
-				</div>
+				) : (
+					<div className="countProductCenter">
+						<div>
+							<ItemCount
+								stock={product.stock}
+								initial={1}
+								onAdd={onAdd}
+							/>
+						</div>
+						<div className="disponible">
+							<span>{product.stock} Unidades Disponibles</span>
+						</div>
+						<div>
+							<Link to="/">
+								<button className="seguirinicio">Seguir Comprando</button>
+							</Link>
+						</div>
+					</div>
+				)}
 			</div>
 		</div>
 	);

@@ -1,0 +1,39 @@
+.cartProduct {
+	display: flex;
+	flex-wrap:wrap;
+	border: 1px solid rgba(46, 46, 46, 0.144);
+	border-radius: 8px;
+	padding: 0.5rem;
+	max-width: 25rem;
+	margin: 2rem auto;
+
+}
+
+.cartImage {
+	width: 11rem;
+	height: 11rem;
+	border-radius: 8px;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.buttonDelete {
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	background-color: rgba(255, 0, 0, 0.733);
+	color: rgba(255, 255, 255, 0.781);
+	border: 1px solid rgba(255, 0, 0, 0.733);
+	border-radius: 8px;
+}
+
+.buttonDelete:hover {
+	border: 2px solid rgb(255, 0, 0);
+}
+
+.buttonDelete:active {
+	border: 2px solid rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+}

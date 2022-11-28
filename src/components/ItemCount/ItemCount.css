@@ -9,22 +9,27 @@
 	justify-content: space-between;
 	padding: 0.5rem;
 	border-radius: 8px;
-	border: 1px solid rgb(115, 194, 221);
+	border: 1px solid whitesmoke;
 }
 .buttonCartContainerItemCount {
 	margin-left: 1rem;
 	border-radius: 8px;
-	border: 1px solid rgb(115, 194, 221);
+	border: 0.5px solid black;
 	padding: 0.8rem;
-	background-color: rgb(115, 194, 221);
+	background-color: black;
+	box-shadow: 2px 2px 2px 1px gray;
+}
+.buttonCartContainerItemCount:hover {
+	border: 2px solid grey;
 }
 
 /* Botones */
 .buttonControlItemCount,
 .buttonAddCartItemCount {
 	font-size: 18px;
+	color:  whitesmoke;
 	border: 0px;
-	background-color: rgb(115, 194, 221);
+	background-color: black;
 	border-radius: 8px;
 	padding: 0 1rem;
 }
@@ -32,6 +37,15 @@
 	padding: 0 1.2rem;
 }
 
+.buttonControlItemCount:active,
+.buttonAddCartItemCount:active {
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+}
+
+.buttonControlItemCount:hover {
+	border: 2px solid gray;
+}
 /* Contador */
 .messageItemCount {
 	margin: 0 1rem;
