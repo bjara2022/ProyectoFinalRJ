@@ -1,12 +1,13 @@
 .navbar-container {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: rgb(45, 45, 46);
-	height: 5rem;
+	background-color:black;
+	height: 6rem;
 	border-bottom: 2px solid rgb(0, 2, 7);
 }
 
 .navbar-titulo {
+	margin-top: 5%;
 	margin-left: 1rem;
 	padding-bottom: 2rem;
 	color: whitesmoke;
@@ -16,11 +17,12 @@
 }
 
 .navbar-list {
+	align-items: flex-end;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	margin-right: 19rem;
-	margin-bottom: 2rem;
+	margin-right: 15rem;
+	margin-bottom: 0%;
 }
 
 .navbar-item-link {
@@ -31,3 +33,10 @@
 	font-size: 1.2rem;
 	color: white;
 }
+.logo{
+	width: 6rem;
+	height: 6rem;
+	display: flex;
+	
+}
+   

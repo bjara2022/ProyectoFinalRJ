@@ -8,7 +8,7 @@ const ItemCart = ({ product }) => {
 		<div className="cartProduct">
 			<img
 				className="cartImage"
-				src={`../images/${product.pictureUrl}.jpeg`}
+				src={`/images/${product.pictureUrl}`}
 				alt={product.title}
 			/>
 			<div>
@@ -30,6 +30,7 @@ const ItemCart = ({ product }) => {
 				>
 					Vaciar
 				</button>
+				
 				
 			</div>
 		</div>

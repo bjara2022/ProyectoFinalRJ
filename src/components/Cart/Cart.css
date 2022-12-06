@@ -1,27 +1,13 @@
 .cartContainer {
 	display: flex;
 	align-items: center;
-	margin-right: 10%;
+	margin-right: 20%;
 }
 
 .vacio {
 	margin-top: 2rem;
 	margin-left: 1rem;
 	text-align: center;
-}
-
-.total {
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	background-color: black;
-	border: 1px solid gray;
-	padding: 1rem;
-	margin-right: 20%;
-	border-radius: 10px;
-	color: whitesmoke;
-	font-size: medium;
-	width: 10%;
-	text-align: center;
-	
 }
 
 .regresoinicio {
@@ -39,4 +25,54 @@
 }
 .regresoinicio:hover{
 	background-color: gray;
+}
+.titulo {
+	margin-top: 1%;
+	margin-left: 1rem;
+	text-align: center;
+}
+.fieldInput {
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 4px;
+	height: 1.5rem;
+}
+.fieldInput:focus-visible {
+	background-color: grey;
+}
+.Buy{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+	color: whitesmoke;
+	margin-left: 50%;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.Buy:hover{
+	background-color: green;
+}
+.paraComprar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fieldInput {
+	display: flex;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 4px;
+	height: 1.5rem;
+	justify-content: space-between;
+}
+
+.fieldInput:focus-visible {
+	background-color: rgba(0, 255, 213, 0.171);
+}
+
+::placeholder {
+	color: rgba(0, 0, 0, 0.74);
 }

@@ -20,7 +20,7 @@ const ItemDetail = ({ product }) => {
 				<img
 					className="imgCard"
 					alt={product.title}
-					src={`../images/${product.pictureUrl}.jpeg`}
+					src={`/images/${product.pictureUrl}`}
 				/>
 				<div>
 					<h1 className="textCard">{product.title}</h1>

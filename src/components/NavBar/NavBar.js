@@ -1,11 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from 'react-router-dom';
+import cart from '../../assets/logo.jpeg';
 import CartWidget from '../CartWidget/CartWidget';
 import './NavBar.css';
 
 export const NavBar = () => {
 	return (
 		<div className="navbar-container">
+			<img className="logo" src={cart} alt="Cart Widget" />{' '}
 			<h1>
 				<Link to="/" className="navbar-titulo">
 					Fructuoso Tattoo
