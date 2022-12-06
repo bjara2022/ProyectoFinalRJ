@@ -23,3 +23,8 @@ Tiene la opcion de vaciar el carrito o generar la orden de compra, toda la infor
 
 ![image](https://github.com/bjara2022/ProyectoFinalRJ/blob/master/public/EntregaRJ.gif)
 
+
+## Desarollador
+
+Barbara Jara 
+| GitHub | [https://github.com/bjara2022?tab=repositories][PlGh] |
