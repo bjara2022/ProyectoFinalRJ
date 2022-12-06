@@ -20,3 +20,7 @@ Se utilizo para el mismo:
 ## Ejemplo del funcionamiento del E-comerce
 El usuario ingresa a nuestra WEb donde puede ver todos los productos ofrecidos, puede filtrar por categorias y a s vez agregar al carrito lo que desea comprar.
 Tiene la opcion de vaciar el carrito o generar la orden de compra, toda la informacion se encuentra alojada dentro de la base de datos de Firebase.
+![image](https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif)
+Explicación
+https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif
+ Esta URL de enlace es la URL de enlace que se muestra en github después de cargar la imagen gif.
